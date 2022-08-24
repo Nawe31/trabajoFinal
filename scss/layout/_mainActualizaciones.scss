@@ -1,0 +1,24 @@
+main div img{
+    width: 200%;
+    height: 50%;
+}
+
+
+ .actualizaciones{
+    display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 100%;
+
+     div img{
+    width: 100%;
+    height: 100%;
+    
+    
+     }
+
+     
+
+     .actualizaciones .card-group{
+        margin: 20px 0px 20px 0px;
+     }
+ }

@@ -1,0 +1,22 @@
+.pases{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100;
+
+    img{
+        width: 100%;
+        height: 90%;
+    }
+    
+
+    div h2{
+        font-size: 300%;
+    }
+
+    div p {
+        margin: 20px 0px 100px 0px;
+
+    }
+}
+
+

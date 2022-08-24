@@ -1,0 +1,230 @@
+footer {
+  margin: 100px 0px 0px 0px;
+  background-color: rgb(50, 50, 50);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100% 100% 100%;
+}
+footer div p {
+  margin: 20px 100px 20px 40px;
+  padding-left: 40px;
+  font-family: sans-serif;
+  font-size: medium;
+  text-align: left;
+}
+footer .redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+footer .redes img {
+  margin: 0px 10px 0px 10px;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s;
+}
+footer .redes :hover {
+  transform: scale(1.3) translateY(-1%);
+}
+
+div h5 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+div p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 50%;
+}
+main h2 {
+  text-align: center;
+  font-size: xx-large;
+  font-family: sans-serif;
+  margin: 40px 0px 20px 0px;
+  color: rgb(64, 248, 242);
+}
+main p {
+  color: white;
+  text-align: center;
+  font-family: "Manjari", sans-serif;
+  padding: 10px 20px 10px 20px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 100%;
+}
+
+.flex {
+  margin: 20px 10px 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.flex hr {
+  color: white;
+}
+.flex img {
+  transform: uppercase;
+  height: 80%;
+  width: 100%;
+  transition: all 0.3s;
+}
+.flex img:hover {
+  transform: scale(1.05) translateY(-1%);
+}
+.flex h3 {
+  transform: uppercase;
+  text-align: center;
+  font-size: xx-large;
+  font-family: sans-serif;
+  margin: 40px 0px 20px 0px;
+  color: rgb(64, 248, 242);
+}
+.flex .flex :hover {
+  transform: scale(1.3) translateY(1%);
+}
+.flex p {
+  text-align: center;
+  color: white;
+  font-family: "Manjari", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: xx-large;
+  font-family: sans-serif;
+  margin: 40px 0px 20px 0px;
+  color: rgb(64, 248, 242);
+}
+
+hr {
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-family: "Manjari", sans-serif;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+}
+main .imagenContacto {
+  width: 100%;
+  height: 100%;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
+
+.form-label {
+  color: white;
+}
+
+main div img {
+  width: 200%;
+  height: 50%;
+}
+
+.actualizaciones {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
+.actualizaciones div img {
+  width: 100%;
+  height: 100%;
+}
+.actualizaciones .actualizaciones .card-group {
+  margin: 20px 0px 20px 0px;
+}
+
+.mundo2042 {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+}
+.mundo2042 h2 {
+  font-size: 300%;
+  margin: 20px 0px 0px 40px;
+}
+.mundo2042 p {
+  text-align: center;
+  margin: 30px 40px 30px 40px;
+}
+.mundo2042 img {
+  width: 100%;
+  height: 60%;
+}
+.mundo2042 .marginHr {
+  margin: -12% 0% 0% 0%;
+}
+.mundo2042 .margin {
+  margin-top: -10%;
+}
+
+.pases {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100;
+}
+.pases img {
+  width: 100%;
+  height: 90%;
+}
+.pases div h2 {
+  font-size: 300%;
+}
+.pases div p {
+  margin: 20px 0px 100px 0px;
+}
+
+a {
+  font-size: large;
+  margin: 10px 20px 10px 0px;
+}
+
+.container-fluid {
+  height: 100%;
+  width: 100%;
+  font-size: x-large;
+  margin: 10px 20px 10px 0px;
+}
+
+body {
+  background-color: rgb(16, 16, 16);
+}
+
+@media (max-width: 990px) {
+  main {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+  }
+  section {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+  }
+}
+footer .redes {
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */

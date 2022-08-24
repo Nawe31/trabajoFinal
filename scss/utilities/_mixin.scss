@@ -1,0 +1,16 @@
+@mixin titulo {
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin: 40px 0px 20px 0px;
+    color:rgb(64, 248, 242);
+    
+}
+
+@mixin parrafo{
+    text-align: center;
+    color:white;
+    font-family: 'Manjari', sans-serif;
+    font-size: 20px;
+    
+  }

@@ -1,0 +1,11 @@
+h2{
+    @include titulo;
+}
+hr{
+    color: white
+}
+p{
+    @include parrafo;
+    margin-bottom: 40px;
+
+}
